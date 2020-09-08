@@ -2,12 +2,15 @@
 This project is my implementation of the port scanner: nmap
 
 ## RESUME
-Nmap is a free port scanner created by Fyodor and distributed by Insecure.org. he
-is designed to detect open ports, identify hosted services, and obtain
-information about the operating system of a remote computer. This software has become
-a benchmark for network administrators because auditing Nmap's results provides
-information on the security of a network. It is available on Windows, Mac OS X,
-Linux, BSD and Solaris.
+Nmap is a free port scanner created by Fyodor and distributed by Insecure.org.
+
+He is designed to detect open ports, identify hosted services, and obtain
+information about the operating system of a remote computer.
+
+This software has become a benchmark for network administrators because auditing
+Nmap's results provides information on the security of a network.
+
+It is available on Windows, Mac OS X, Linux, BSD and Solaris.
 
 ## BEHAVIOUR
 ```sh
@@ -68,7 +71,9 @@ Usage: ft_nmap [OPTIONS]...
   
   If none is specified, the 6 types are used.
 + Ports scan can be passed individually or by range or both (eg. 100,200,300 or 100-200 or 100-200,300)
+  
   If none is specified, the port scan range will be 1-1024.
+  
   The limit number of ports to be scan is 1024.
   
 ```sh
