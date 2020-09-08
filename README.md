@@ -65,6 +65,7 @@ Usage: ft_nmap [OPTIONS]...
   - FIN
   - XMAS
   - UDP
+  
   If none is specified, the 6 types are used.
 + Ports scan can be passed individually or by range or both (eg. 100,200,300 or 100-200 or 100-200,300)
   If none is specified, the port scan range will be 1-1024.
